@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-08-28T18:53:08.894639" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\DEVELOPPEMENT\kolakash_01\tests">
+<suite id="s1-s1" name="Main" source="C:\DEVELOPPEMENT\kolakash_01\tests\main.robot">
+<test id="s1-s1-t1" name="Main Test" line="15">
+<kw name="First Keyword">
+<msg time="2024-08-28T18:53:09.227918" level="FAIL">No keyword with name 'First Keyword' found.</msg>
+<status status="FAIL" start="2024-08-28T18:53:09.227918" elapsed="0.000000">No keyword with name 'First Keyword' found.</status>
+</kw>
+<status status="FAIL" start="2024-08-28T18:53:09.227918" elapsed="0.000000">No keyword with name 'First Keyword' found.</status>
+</test>
+<status status="FAIL" start="2024-08-28T18:53:08.948644" elapsed="0.279274"/>
+</suite>
+<status status="FAIL" start="2024-08-28T18:53:08.896861" elapsed="0.345063"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Main">Tests.Main</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-08-28T18:53:08.948644" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 5: Setting variable 'First Keyword' failed: Invalid variable name 'First Keyword'.</msg>
+<msg time="2024-08-28T18:53:08.949919" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 6: Setting variable '' failed: Invalid variable name ''.</msg>
+<msg time="2024-08-28T18:53:08.949919" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 8: Setting variable '' failed: Invalid variable name ''.</msg>
+<msg time="2024-08-28T18:53:08.949919" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 10: Setting variable '' failed: Invalid variable name ''.</msg>
+<msg time="2024-08-28T18:53:08.951303" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 12: Setting variable '' failed: Invalid variable name ''.</msg>
+</errors>
+</robot>
