@@ -1,34 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-08-28T18:53:08.894639" rpa="false" schemaversion="5">
+<robot generator="Robot 7.0.1 (Python 3.12.5 on win32)" generated="2024-08-28T21:25:26.580525" rpa="false" schemaversion="5">
 <suite id="s1" name="Tests" source="C:\DEVELOPPEMENT\kolakash_01\tests">
 <suite id="s1-s1" name="Main" source="C:\DEVELOPPEMENT\kolakash_01\tests\main.robot">
 <test id="s1-s1-t1" name="Main Test" line="15">
 <kw name="First Keyword">
-<msg time="2024-08-28T18:53:09.227918" level="FAIL">No keyword with name 'First Keyword' found.</msg>
-<status status="FAIL" start="2024-08-28T18:53:09.227918" elapsed="0.000000">No keyword with name 'First Keyword' found.</status>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-28T21:25:27.014771" level="INFO">Opening browser 'Edge' to base url 'about:blank'.</msg>
+<msg time="2024-08-28T21:25:27.907816" level="WARN">The msedgedriver version (127.0.2651.105) detected in PATH at C:\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (128.0.2739.42); currently, msedgedriver 128.0.2739.42 is recommended for MicrosoftEdge 128.*, so it is advised to delete the driver in PATH and retry</msg>
+<arg>about:blank</arg>
+<arg>Edge</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-28T21:25:27.014771" elapsed="3.717194"/>
 </kw>
-<status status="FAIL" start="2024-08-28T18:53:09.227918" elapsed="0.000000">No keyword with name 'First Keyword' found.</status>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-28T21:25:30.731965" elapsed="0.058169"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-08-28T21:25:30.793584" level="INFO">Opening url 'https://www.google.cm'</msg>
+<arg>https://www.google.cm</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-08-28T21:25:30.792557" elapsed="10.673278"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-08-28T21:25:41.478620" elapsed="2.862455"/>
+</kw>
+<status status="PASS" start="2024-08-28T21:25:27.014771" elapsed="17.326304"/>
+</kw>
+<status status="PASS" start="2024-08-28T21:25:27.014771" elapsed="17.326304"/>
 </test>
-<status status="FAIL" start="2024-08-28T18:53:08.948644" elapsed="0.279274"/>
+<status status="PASS" start="2024-08-28T21:25:26.636923" elapsed="17.707775"/>
 </suite>
-<status status="FAIL" start="2024-08-28T18:53:08.896861" elapsed="0.345063"/>
+<status status="PASS" start="2024-08-28T21:25:26.582530" elapsed="17.765315"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="Tests">Tests</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1" name="Main">Tests.Main</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Main">Tests.Main</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2024-08-28T18:53:08.948644" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 5: Setting variable 'First Keyword' failed: Invalid variable name 'First Keyword'.</msg>
-<msg time="2024-08-28T18:53:08.949919" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 6: Setting variable '' failed: Invalid variable name ''.</msg>
-<msg time="2024-08-28T18:53:08.949919" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 8: Setting variable '' failed: Invalid variable name ''.</msg>
-<msg time="2024-08-28T18:53:08.949919" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 10: Setting variable '' failed: Invalid variable name ''.</msg>
-<msg time="2024-08-28T18:53:08.951303" level="ERROR">Error in file 'C:\DEVELOPPEMENT\kolakash_01\tests\main.robot' on line 12: Setting variable '' failed: Invalid variable name ''.</msg>
+<msg time="2024-08-28T21:25:27.907816" level="WARN">The msedgedriver version (127.0.2651.105) detected in PATH at C:\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (128.0.2739.42); currently, msedgedriver 128.0.2739.42 is recommended for MicrosoftEdge 128.*, so it is advised to delete the driver in PATH and retry</msg>
 </errors>
 </robot>
