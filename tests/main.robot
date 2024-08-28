@@ -1,13 +1,13 @@
 *** Settings ***
 Library    SeleniumLibrary
 *** Variables ***
-
+*** Keywords ***
 First Keyword
     Open Browser  about:blank  Edge
 
-    Go To  https://www.google.cm
-
     Maximize Browser Window
+
+    Go To  https://www.google.cm
 
     Close Browser
 
